@@ -77,6 +77,10 @@ public class UserEntity {
     public UserEntity() {
     }
 
+    public UserEntity(int uid){
+        this.uid=uid;
+    }
+
     @Override
     public String toString() {
         return "UserEntity{" +
